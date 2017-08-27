@@ -1,0 +1,11 @@
+provider:
+  name: faas
+  provider: faas
+  gateway: http://localhost:8080
+
+functions:
+  leftpad:
+    lang: node
+    handler: ./handler
+    image: alexellis2/faas-leftpad
+
