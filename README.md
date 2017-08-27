@@ -1,5 +1,5 @@
 # faas-leftpad
-left-pad on OpenFaaS
+left-pad on [OpenFaaS](https://www.openfaas.com)
 
 ```
 $ faas-cli -action build -f ./stack.yml
