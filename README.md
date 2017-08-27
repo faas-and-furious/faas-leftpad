@@ -2,8 +2,8 @@
 left-pad on OpenFaaS
 
 ```
-$ faas-cli -action build -f ./leftpad.yml
-$ faas-cli -action deploy -f ./leftpad.yml
+$ faas-cli -action build -f ./stack.yml
+$ faas-cli -action deploy -f ./stack.yml
 ```
 
 Test it:
